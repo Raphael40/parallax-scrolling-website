@@ -17,7 +17,6 @@ header {
   left: 0;
   width: 100%;
   padding: 30px, 100px;
-  background: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,4 +71,13 @@ header {
   align-items: center;
   height: 100vh;
   background: url('images/background.png') no-repeat;
+  background-size: center;
+  background-attachment: fixed;
+}
+
+#text {
+  position: absolute;
+  font-size: 5em;
+  color: #1b283a;
+  text-shadow: 2px 4px 5px #f9f9f9;
 }
