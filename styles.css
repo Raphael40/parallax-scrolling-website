@@ -72,7 +72,8 @@ header {
   align-items: center;
   height: 100vh;
   background: url('images/background.png') no-repeat;
-  background-size: center;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -92,10 +93,12 @@ header {
 }
 
 .parallax img#gate-left {
+  /* position: fixed; */
   transform: translateX(-282px);
 }
 
 .parallax img#gate-right {
+  /* position: fixed; */
   transform: translateX(305px);
 }
 
